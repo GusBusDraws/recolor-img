@@ -26,11 +26,11 @@ File structure of the project is as follows:
 2. Navigate to downloaded directory
 3. Check that Python is downloaded:
     ```
-    python --version
+    python3 --version
     ```
 4. Create a Python virtual environment in a directory we'll call `env`:
     ```
-    python venv env
+    python3 venv env
     ```
 5. Activate your Python environment from a cmd or bash terminal from **within** the project directoy:
     - On Windows cmd.exe:
@@ -43,7 +43,7 @@ File structure of the project is as follows:
         ```
 6. Install the project dependent packages (dependencies) into the currently activated virtual environment using the `requirements.txt` file:
     ```
-    python -m pip install -r requirements.txt
+    python3 -m pip install -r requirements.txt
     ```
 7. Open a Jupyter notebook session with our virtual environment activated:
     ```
