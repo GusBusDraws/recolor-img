@@ -4,5 +4,3 @@ scikit-image
 pandas
 plotly
 jupyter
-pyqt5
-napari
